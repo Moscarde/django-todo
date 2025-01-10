@@ -1,4 +1,6 @@
 from django.shortcuts import render
 
-def home(request):
-    return render(request, "todos/home.html")
+def todo_list(request):
+    nome = "Gabriel"
+    sobrenomes = ["Silva", "Moscarde"]
+    return render(request, "todos/todo_list.html", {"nome": nome, "sobrenomes": sobrenomes })
