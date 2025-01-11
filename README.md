@@ -63,3 +63,8 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 7. Acesse o projeto no navegador: http://localhost:8000.
+
+
+## Referências
+
+Utilizei como referência o vídeo de guia para Django do canal **TreinaWeb** disponibilizado no [Youtube](https://www.youtube.com/watch?v=MsUL3Pgofl4) juntamente com a [Documentação oficial do Django](https://docs.djangoproject.com/pt-br/5.1/intro/tutorial01/)
